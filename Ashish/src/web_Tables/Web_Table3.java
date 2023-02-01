@@ -15,7 +15,7 @@ public class Web_Table3 {
 	public static void main(String[] args) {
 			
 			
-			System.setProperty("webdriver.chrome.driver","C:\\Users\\admin\\Downloads\\installer\\chromedriver.exe");
+		  System.setProperty("webdriver.chrome.driver","C:\\installar\\chromedriver_win32\\chromedriver.exe");
 			
 			WebDriver driver=new ChromeDriver();
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
