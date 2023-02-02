@@ -1,11 +1,15 @@
 package Testclass;
 
+import java.io.IOException;
+
+import org.testng.ITestResult;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 import Pomclass.Homepage;
 import TaseBase.com.Baseclass;
+import Utility.Utility;
 
 public class Htest extends Baseclass {	
 	Homepage hm;
@@ -24,11 +28,15 @@ public void LPage() throws InterruptedException {
 }
  @Test
  public void test1(){
-   hm.list();
+   hm.list();  
 }
 
 @AfterSuite
-public void teardown() {
+public void teardown(ITestResult Result) throws IOException {
+	if(ITestResult.FAILURE== Result.getStatus()) {
+		Utility.pichture(driver,Result.getName());
+	System.out.println(" testcases fail screenshort is done ");	} 
+	
 	driver.quit();
-}
+} 
 }

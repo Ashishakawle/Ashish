@@ -11,7 +11,7 @@ public class Demo_automation_testing {
 
 public static void main(String[] args) {
 		
-	System.setProperty("webdriver.chrome.driver","C:\\installar\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver","C:\\installar\\chromedriver_win32\\chromedriver.exe");
 		
 		WebDriver driver=new ChromeDriver ();
 		
