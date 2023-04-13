@@ -5,6 +5,7 @@
     <classes>
       <class name="Testclass.Htest">
         <methods>
+          <include name="LPage"/>
           <include name="teardown"/>
           <include name="test1"/>
           <include name="setup"/>

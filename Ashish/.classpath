@@ -140,5 +140,6 @@
 	<classpathentry kind="lib" path="C:/installar/selenium-java-4.7.2/poi-bin-5.2.2-20220312/xmlbeans-5.0.3.jar"/>
 	<classpathentry kind="lib" path="C:/installar/selenium-java-4.7.2/poi-bin-5.2.2-20220312/xmlgraphics-commons-2.6.jar"/>
 	<classpathentry kind="lib" path="C:/installar/selenium-java-4.7.2/poi-bin-5.2.2-20220312/xmlsec-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/installar/selenium-server-4.8.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
