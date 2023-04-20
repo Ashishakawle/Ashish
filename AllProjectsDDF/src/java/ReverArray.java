@@ -4,7 +4,7 @@ public class ReverArray {
 
  public static void main(String[] args) { 
 	 
-	  int []arr={1,8,9,3,4,5,65,58,24,79,87};
+	  int []arr={1,8,9,3,4,5,65,58,24,79,87,45,78};
        System.out.println(" given array");
       for(int i=0;i<arr.length;i++)
     	   System.out.print(arr[i]+" ");

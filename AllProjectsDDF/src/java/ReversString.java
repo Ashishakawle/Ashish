@@ -3,7 +3,7 @@ package java;
 public class ReversString {
 
 	public static void main(String[] args) {
-		String s="Ashish Ashokrao kawale";
+		String s="Ashish Ashokrao kawale solution";
         String []words=s.split(" ");
         String Rev=" ";
         for(String a:words) {
