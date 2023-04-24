@@ -40,7 +40,7 @@
 	<classpathentry kind="lib" path="C:/installar/selenium-java-4.7.2/selenium-json-4.7.2-sources.jar"/>
 	<classpathentry kind="lib" path="C:/installar/selenium-java-4.7.2/selenium-manager-4.7.2.jar"/>
 	<classpathentry kind="lib" path="C:/installar/selenium-java-4.7.2/selenium-manager-4.7.2-sources.jar"/>
-	<classpathentry kind="lib" path="C:/installar/selenium-java-4.7.2/selenium-remote-driver-4.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/installar/selenium-java-4.7.2/selenium-remote-driver-4.7.2.jar" sourcepath=""/>
 	<classpathentry kind="lib" path="C:/installar/selenium-java-4.7.2/selenium-remote-driver-4.7.2-sources.jar"/>
 	<classpathentry kind="lib" path="C:/installar/selenium-java-4.7.2/selenium-safari-driver-4.7.2.jar"/>
 	<classpathentry kind="lib" path="C:/installar/selenium-java-4.7.2/selenium-safari-driver-4.7.2-sources.jar"/>
