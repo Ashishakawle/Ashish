@@ -7,5 +7,5 @@ public class Friend {
     System.out.println("Pream sabale is My friend 12345");
     
 	}
-
+ 
 }

@@ -6,6 +6,7 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/installar/selenium-java-4.7.2/jcommander-1.82.jar"/>
 	<classpathentry kind="lib" path="C:/installar/selenium-java-4.7.2/jquery-3.6.0.jar"/>
 	<classpathentry kind="lib" path="C:/installar/selenium-java-4.7.2/jsr305-3.0.2.jar"/>
